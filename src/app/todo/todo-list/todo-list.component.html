@@ -1,0 +1,10 @@
+<mat-card class="card" *ngFor="let todo of todos;let i=index">{{todo.item}}
+    <button
+    class="btn"
+    mat-raised-button
+    color="accent"
+    value="Delete"
+    style="float: right;"
+    (click)="delTask(i)">X</button>
+</mat-card>
+<p class="a" *ngIf="todos.length<=0">No Item Added Yet!</p>

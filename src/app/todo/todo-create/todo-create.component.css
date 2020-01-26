@@ -1,0 +1,16 @@
+.header
+{
+    padding-left: 600px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.card
+{
+    padding-left: 40px;
+    background-color: plum;
+}
+mat-form-field,
+textarea {
+  width: 100%;
+}

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TO-DO-APP';
+  storedtodos=[];
+
+  onItemAdded(todo: any){
+    this.storedtodos.push(todo);
+}
 }

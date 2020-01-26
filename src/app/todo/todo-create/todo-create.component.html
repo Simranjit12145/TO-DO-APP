@@ -1,0 +1,11 @@
+<mat-toolbar color="primary" class="header"> TO-DO-LIST </mat-toolbar>
+<hr>
+<mat-card class="card">
+    <mat-form-field>
+        <input matInput placeholder="Enter item" type="text" [(ngModel)]="enteredItem">
+    </mat-form-field>
+    <button
+    mat-raised-button
+    color="accent"
+    (click)="onAddItem()">Add Item</button>
+</mat-card>
